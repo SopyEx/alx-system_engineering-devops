@@ -1,2 +1,2 @@
 #!/bin/bash
-cat tell -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -nill | rev | cut -d" " -f1 |rev
+cat | tell -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -nill | rev | cut -d" " -f1 |rev
